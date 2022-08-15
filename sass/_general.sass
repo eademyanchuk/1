@@ -1,0 +1,406 @@
+header
+    position: relative
+    padding: 27px 0 
+    min-height: 1000px
+    background: url('../img/bg/bg_head.jpg') (center / cover) no-repeat
+    .header_logo
+        position: absolute
+        top: 27px
+        font-family: Montserrat
+        font-size: 30px
+        font-weight: 700
+        color: #ffffff
+        text-decoration: none
+        margin-left: 272px
+        cursor: pointer
+    .menu
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+        margin: 12px 268px 0 852px
+        padding: 0
+        min-width: 620px
+        cursor: pointer
+        &_link
+            font-family: Montserrat
+            font-size: 14px
+            font-weight: 400
+            text-transform: uppercase
+            color: #ffffff
+            text-decoration: none
+            +menu_hover
+    .subheader
+        &_logo
+            margin-top: 229px
+            text-align: center
+            font-family: 'Kaushan Script'
+            font-size: 72px
+            line-height: 1.2
+            font-weight: 400
+            color: #ffffff
+        &_sublogo
+            margin-top: 42px
+            text-align: center
+            font-family: Montserrat
+            font-size: 150px
+            line-height: 140px
+            font-weight: 700
+            text-transform: uppercase
+            color: #ffffff
+        &_divider
+            display: block
+            margin: 0 auto
+            margin-top: 71px
+            width: 60px
+            height: 3px
+            background-color: #ffffff
+        &_btn
+            display: block
+            margin: 0 auto
+            margin-top: 50px
+            width: 160px
+            height: 40px
+            background-color: rgba(0,0,0,0.0)
+            border: 3px solid #ffffff
+            font-family: Montserrat
+            font-size: 14px
+            font-weight: 700
+            text-transform: uppercase
+            color: #ffffff
+            cursor: pointer
+            +btn_hover
+    .menudown
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+        padding: 0
+        margin: 0
+        margin-top: 157px 
+        &_link
+            opacity: 0.7
+            font-family: Montserrat
+            text-decoration: none
+            font-size: 18px
+            font-weight: 400
+            text-transform: uppercase
+            color: #ffffff
+            span
+                font-size: 24px
+                font-weight: 700
+            &::before
+                content: ''
+                display: block
+                margin-bottom: 25px
+                width: 280px
+                height: 3px
+                opacity: 0.5
+                background-color: #ffffff
+            +menudown_hover
+.divider_red
+    display: block
+    margin: 0 auto
+    margin-top: 40px
+    width: 60px
+    height: 3px
+    background-color: #f38181
+h3
+    text-align: center
+    margin: 0
+    margin-top: 109px
+    font-family: Montserrat
+    font-size: 30px
+    font-weight: 700
+    text-transform: uppercase
+    color: #333333
+    span
+        margin-bottom: 23px
+        font-family: 'Kaushan Script'
+        font-size: 24px
+        line-height: 2.3
+        font-weight: 400
+        color: #333333
+        text-transform: none
+.story
+    &_descr
+        margin-top: 47px
+        text-align: center
+        font-family: Roboto
+        font-size: 15px
+        line-height: 24px
+        font-weight: 400
+        color: #999999
+    &_block
+        margin: 100px 0 
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_item
+        width: 380px
+        height: 250px
+        &_1
+            background: url('../img/super_team.jpg') (center / cover) no-repeat
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+    &_text
+        margin-top: 11px
+        font-family: Montserrat
+        font-size: 18px
+        font-weight: 700
+        text-transform: uppercase
+        color: #ffffff
+.stat
+    position: relative
+    max-height: 270px
+    background-color: #95e1d3
+    &_block
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_item
+        display: flex
+        justify-content: center
+        align-items: center  
+        flex-direction: column
+        width: 239px
+    &_divider
+        width: 1px
+        height: 270px
+        opacity: 0.3
+        background-color: #ffffff      
+    &_number
+        font-family: Montserrat
+        font-size: 72px
+        font-weight: 700
+        text-transform: uppercase
+        color: #ffffff
+    &_descr
+        margin-top: 12px
+        font-family: Montserrat
+        font-size: 14px
+        font-weight: 400
+        text-transform: uppercase
+        color: #ffffff
+.amazing
+    padding-bottom: 122px
+    .row
+        margin-top: 66px
+    &_item
+        display: flex
+        justify-content: center
+        align-content: center
+        img
+            margin-right: 28px
+            height: 100%
+    &_descr
+        width: 329px
+        display: flex
+        justify-content: center
+        flex-direction: column
+            
+    &_subtitle
+        font-family: Montserrat
+        font-size: 14px
+        font-weight: 700
+        line-height: 1.2
+        text-transform: uppercase
+        color: #333333
+    &_text
+        margin-top: 10px
+        font-family: Roboto
+        font-size: 15px
+        line-height: 24px
+        font-weight: 400
+        color: #999999
+    &_divider
+        margin-top: 50px
+        height: 1px
+        background-color: #e5e5e5
+.unique
+    position: relative
+    height: 750px
+    background: url('../img/bg/bg_dez.jpg') (center / cover) no-repeat
+    padding-top: 107px
+    h3
+        margin: 0
+    &_pad
+        position: absolute
+        bottom: -132px
+        left:39%
+.what
+    &_descr
+        margin-top: 47px
+        text-align: center
+        font-family: Roboto
+        font-size: 15px
+        line-height: 24px
+        font-weight: 400
+        color: #999999
+    .row
+        margin: 92px 0 120px 0 
+    &_img
+        width: 570px
+        height: 372px
+    .accordion
+        &_icon
+            margin-right: 15px
+        .accordion-button
+            font-family: Montserrat
+            font-size: 14px
+            font-weight: 700
+            text-transform: uppercase
+            color: #333333
+            background-color: #fff
+            &:focus
+                box-shadow: 0 0 0 0.25rem rgb(1 1 1 / 25%)
+        .accordion-body
+            font-family: Roboto
+            font-size: 15px
+            line-height: 24px
+            font-weight: 300
+            font-style: italic
+            color: #999999
+    .scroll-content 
+        overflow-y: scroll
+        max-height: 200px
+.speech
+    max-height: 290px
+    background-color: #f8f8f8
+    &_block
+        margin: 80px 0 114px 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_picture
+        margin-left: 75px
+        width: 150px
+        height: 150px
+        background-color: rgba(0,0,0,0.0)
+        border: 3px solid #95e1d3
+        img
+            margin: 45px 44px
+    &_descr
+        min-height: 142px
+    &_text
+        min-width: 766px
+        margin-left: 61px
+        margin-bottom: 10px
+        font-family: Roboto
+        font-size: 24px
+        line-height: 36px
+        font-weight: 300
+        font-style: italic
+        color: #999999
+    &_ps
+        display: flex
+        align-items: center
+        margin-left: 61px
+    &_divider
+        width: 60px
+        height: 3px
+        background-color: #f38181
+    &_sign
+        margin-left: 10px
+        font-family: 'Kaushan Script'
+        font-size: 24px
+        font-weight: 400
+        color: #333333
+    &_arrowrigth
+        margin-left: 75px
+.meet
+    .row
+        margin-top: 92px
+        margin-bottom: 117px
+    &_block
+        position: relative
+    &_links
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: 19%
+        display: flex
+        justify-content: space-around
+        align-items: center
+        width: 224px
+        height: 56px
+        background-color: #fce38a        
+    &_icon
+        width: 56px
+        height: 56px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-right: 1px solid #f38181
+    .iconred
+        background-color: #f38181
+    .noneborder
+        border-right: none
+    &_sign
+        width: 380px
+        margin-top: 31px
+        text-align: center
+        font-family: Montserrat
+        font-size: 14px
+        line-height: 2.2
+        font-weight: 700
+        text-transform: uppercase
+        color: #333333
+        span
+            font-family: Roboto
+            font-size: 15px
+            line-height: 24px
+            font-weight: 300
+            font-style: italic
+            color: #999999
+            text-transform: none
+.logos
+    height: 250px
+    background-color: #f8f8f8
+    padding: 51px 0 50px 0
+    &_block
+        img
+            display: block
+            margin: 0 auto
+.some
+    &_descr
+        margin-bottom: 102px
+
+.images
+    &_block
+        min-height: 780px
+        display: flex
+        justify-content: center
+        align-items: center
+    .creative
+        img
+            max-width: 30px
+            max-height: 30px
+            margin-bottom: 20px
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        width: 480px
+        height: 390px
+        background: url('../img/creative_desine.jpg') (center / cover) no-repeat
+        font-family: Montserrat
+        font-size: 14px
+        font-weight: 400
+        text-transform: uppercase
+        color: #ffffff
+        span
+            font-family: Roboto
+            font-size: 15px
+            font-weight: 300
+            font-style: italic
+            color: #ffffff
+            text-transform: none
+    &_item1
+        width: 960px
+        display: flex
+        flex-wrap: wrap
+        align-content: flex-start
+    &_item2
+        display: flex
+        flex-direction: column
